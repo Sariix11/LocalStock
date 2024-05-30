@@ -1,0 +1,278 @@
+body {
+    margin:0;
+    padding: 0%;
+}
+
+header, input{
+    padding: 20px;
+    padding-right: 900px;
+    border-radius: 5px; 
+    border: 0;
+    outline: none;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a cada lado */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 30px; /* Ajusta el espaciado interior según sea necesario */
+    background-color: #d91e1e;
+}
+
+.header-container img {
+    width: 150px; /* Tamaño de las imágenes */
+    height: 150px;
+    object-fit: cover; /* Ajusta la forma de la imagen */
+    margin: 0 100px;
+}
+
+.menu {
+    text-align: center; /* Centra todo el contenido del menú */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.menu li {
+    display: inline-block; /* Para que los elementos del menú estén en línea */
+    margin-right: 180px; /* Espacio entre elementos */
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu img {
+    width: 100px; /* Tamaño de las imágenes */
+    height: 100px;
+    border-radius: 50%; /* Para darles forma redonda */
+    border: 2px solid black;
+    display: block; /* Asegura que las imágenes estén en línea con el texto */
+    margin: 0 auto 5px; /* Espacio entre la imagen y el texto */
+}
+
+.menu p {
+    font-size: 14px; /* Tamaño del texto */
+}
+
+#descuento{
+    width: 400px;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 0 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+#descuento img{
+    width: 450px;
+    height: 300px;
+    justify-content: left;
+}
+#Nuevos{
+    width: 400px;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 0 350px;
+}
+#Nuevos img{
+    width: 450px;
+    height: 300px;
+    justify-content: left;
+    margin: 0;
+}
+#Video {
+    width: 400px; /* Ancho del video */
+    height: 400px; /* Alto del video */
+    margin-top: -150px;
+    margin-right: 150px;
+}
+#Video, video{
+    width: 560px; /* Ancho del video */
+    height: 315px; /* Alto del video */
+    float: right;
+}
+footer{
+    background-color: #d91e1e;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el relleno predeterminado de la lista */
+}
+
+footer ul li {
+    margin-bottom: 10px; /* Añade espacio entre los elementos de la lista */
+    color: white;
+}
+
+footer h4 {
+    margin-top: 20px; /* Añade espacio entre la lista y el nombre */
+}
+
+
+@media (min-width: 481px) and (max-width: 768px)
+{
+    .header-container {
+        margin-bottom: 10px;
+        height: 50px; 
+        padding: 5px;
+        justify-content: space-between; 
+    }
+    header, input {
+        padding: 15px;
+        padding-right: 100px; 
+      }
+    .header-container img {
+        width: 50px; /* Tamaño de las imágenes */
+        height: 50px;
+        object-fit: cover; /* Ajusta la forma de la imagen */
+        margin: 0 100px;
+    }
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px;
+    }
+    .menu li {
+        display: inline-block; /* Para que los elementos del menú estén en línea */
+        margin-right: 50px; /* Espacio entre elementos */
+        text-align: center;
+    }
+    .menu img {
+        width: 50px; /* Tamaño de las imágenes */
+        height: 50px;
+        border-radius: 50%; /* Para darles forma redonda */
+        border: 2px solid black;
+        display: block; /* Asegura que las imágenes estén en línea con el texto */
+        margin: 0 auto 5px; /* Espacio entre la imagen y el texto */
+    }
+    #descuento{
+        margin: 0 30px;
+        float: left;
+        height: 300px;
+    }
+    #descuento img{
+        width: 300px;
+        height: 200px;
+    }
+    #Video {
+        margin-right: -5px;
+        margin-top: -200px;
+        align-content: flex-end;
+        float: right;
+        padding-right: 20px;
+    }
+    #Video, video{
+        width: 300px; /* Ancho del video */
+        height: 170px; /* Alto del video */
+    }
+    #Nuevos{
+        margin: 0 10px;
+        width: 150px;
+        height: 100px; 
+        padding-left: 350px;
+    }
+    #Nuevos img{
+        width: 300px;
+        height: 200px;
+    }
+    #Formulario {
+        margin: 10px; /* Centra el formulario horizontal y verticalmente */
+        padding: 0 30px; /* Ajusta el espaciado del formulario */
+        max-width: 400px;
+    }   
+     
+}
+@media (max-width: 1024px){
+    .header-container {
+        margin-bottom: 10px;
+        height: 50px; 
+        padding: 5px;
+        justify-content: space-between; 
+    }
+    header, input {
+        padding: 15px;
+        padding-right: 100px; 
+      }
+    .header-container img {
+        width: 50px; /* Tamaño de las imágenes */
+        height: 50px;
+        object-fit: cover; /* Ajusta la forma de la imagen */
+        margin: 0 100px;
+    }
+    .menu {
+        text-align: center; /* Centra todo el contenido del menú */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px;
+    }
+    
+    .menu li {
+        display: inline-block; /* Para que los elementos del menú estén en línea */
+        margin-right: 180px; /* Espacio entre elementos */
+        text-align: center;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .menu img {
+        width: 50px; /* Tamaño de las imágenes */
+        height: 50px;
+        border-radius: 50%; /* Para darles forma redonda */
+        border: 2px solid black;
+        display: block; /* Asegura que las imágenes estén en línea con el texto */
+        margin: 0 auto 5px; /* Espacio entre la imagen y el texto */
+    }
+    
+    .menu p {
+        font-size: 14px; /* Tamaño del texto */
+    }
+    #descuento{
+        margin: 0 30px;
+        float: left;
+        height: 300px;
+    }
+    #descuento img{
+        width: 300px;
+        height: 200px;
+    }
+    #Video {
+        margin-top: 150px;
+        margin-right: 150px;
+        align-content:flex-end;
+    }
+    #Video, video{
+        width: 350px; /* Ancho del video */
+        height: 220px; /* Alto del video */
+        float: right;
+    }
+    #Nuevos{
+        margin: 0 10px;
+        width: 300px; 
+        padding: 20px;
+    }
+    #Nuevos img{
+        width: 300px;
+        height: 200px;
+    }
+    }
+   

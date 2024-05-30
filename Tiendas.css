@@ -1,0 +1,195 @@
+body {
+    margin:0;
+    padding: 0%;
+}
+
+header, input{
+    padding: 20px;
+    padding-right: 900px;
+    border-radius: 5px; 
+    border: 0;
+    outline: none;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a cada lado */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 30px; /* Ajusta el espaciado interior según sea necesario */
+    background-color: #d91e1e;
+}
+
+.header-container img {
+    width: 150px; /* Tamaño de las imágenes */
+    height: 150px;
+    object-fit: cover; /* Ajusta la forma de la imagen */
+    margin: 0 100px;
+}
+
+.menu {
+    text-align: center; /* Centra todo el contenido del menú */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.menu li {
+    display: inline-block; /* Para que los elementos del menú estén en línea */
+    margin-right: 180px; /* Espacio entre elementos */
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu img {
+    width: 100px; /* Tamaño de las imágenes */
+    height: 100px;
+    border-radius: 50%; /* Para darles forma redonda */
+    border: 2px solid black;
+    display: block; /* Asegura que las imágenes estén en línea con el texto */
+    margin: 0 auto 5px; /* Espacio entre la imagen y el texto */
+}
+
+.menu p {
+    font-size: 14px; /* Tamaño del texto */
+}
+
+.Tiendas {
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre los elementos, ajusta según sea necesario */
+}
+
+.Tiendas input {
+    padding: 20px;
+    padding-right: 500px;
+    border-radius: 10px; 
+    border: 3px solid black; /* Borde negro de 3px */
+    display: block; /* Hace que el elemento ocupe toda la línea */
+    margin: 0 auto; /* Centra el elemento horizontalmente */
+    width: fit-content; /* Ajusta el ancho al contenido */
+}
+.images {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 10px; /* Espacio entre las imágenes, ajusta según sea necesario */
+}
+
+
+footer{
+    background-color: #d91e1e;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el relleno predeterminado de la lista */
+}
+
+footer ul li {
+    margin-bottom: 10px; /* Añade espacio entre los elementos de la lista */
+    color: white;
+}
+
+footer h4 {
+    margin-top: 20px; /* Añade espacio entre la lista y el nombre */
+}
+@media (min-width: 481px) and (max-width: 768px)
+{
+    .header-container {
+        margin-bottom: 10px;
+        height: 50px; 
+        padding: 5px;
+        justify-content: space-between; 
+    }
+    header, input {
+        padding: 15px;
+        padding-right: 100px; 
+      }
+    .header-container img {
+        width: 50px; /* Tamaño de las imágenes */
+        height: 50px;
+        object-fit: cover; /* Ajusta la forma de la imagen */
+        margin: 0 100px;
+    }
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px;
+    }
+    .menu li {
+        display: inline-block; /* Para que los elementos del menú estén en línea */
+        margin-right: 50px; /* Espacio entre elementos */
+        text-align: center;
+    }
+    .menu img {
+        width: 50px; /* Tamaño de las imágenes */
+        height: 50px;
+        border-radius: 50%; /* Para darles forma redonda */
+        border: 2px solid black;
+        display: block; /* Asegura que las imágenes estén en línea con el texto */
+        margin: 0 auto 5px; /* Espacio entre la imagen y el texto */
+    }
+}
+@media (max-width: 1024px){
+    .header-container {
+        margin-bottom: 10px;
+        height: 50px; 
+        padding: 5px;
+        justify-content: space-between; 
+    }
+    header, input {
+        padding: 15px;
+        padding-right: 100px; 
+      }
+    .header-container img {
+        width: 50px; /* Tamaño de las imágenes */
+        height: 50px;
+        object-fit: cover; /* Ajusta la forma de la imagen */
+        margin: 0 100px;
+    }
+    .menu {
+        text-align: center; /* Centra todo el contenido del menú */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px;
+    }
+    
+    .menu li {
+        display: inline-block; /* Para que los elementos del menú estén en línea */
+        margin-right: 180px; /* Espacio entre elementos */
+        text-align: center;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .menu img {
+        width: 50px; /* Tamaño de las imágenes */
+        height: 50px;
+        border-radius: 50%; /* Para darles forma redonda */
+        border: 2px solid black;
+        display: block; /* Asegura que las imágenes estén en línea con el texto */
+        margin: 0 auto 5px; /* Espacio entre la imagen y el texto */
+    }
+    
+    .menu p {
+        font-size: 14px; /* Tamaño del texto */
+    }
+}
